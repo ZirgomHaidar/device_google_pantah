@@ -1,0 +1,4 @@
+# Droidx
+ro.droidx.maintainer=ZirgomHaidar
+ro.droidx.chipset=Google Tensor GS201
+ro.droidx.display_resolution=6.3" AMOLED 1080x2400

@@ -41,6 +41,8 @@ BOARD_USES_GENERIC_AUDIO := true
 USES_DEVICE_GOOGLE_CLOUDRIPPER := true
 BOARD_KERNEL_CMDLINE += swiotlb=noforce
 
+TARGET_SYSTEM_PROP += device/google/pantah/panther/properties/system.prop
+
 include device/google/gs201/BoardConfig-common.mk
 -include vendor/google_devices/gs201/prebuilts/BoardConfigVendor.mk
 -include vendor/google_devices/panther/proprietary/BoardConfigVendor.mk

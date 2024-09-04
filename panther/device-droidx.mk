@@ -6,4 +6,4 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/panther/overlay-evolution
 
-$(call inherit-product, $(LOCAL_PATH)/device-evolution.mk)
+$(call inherit-product, $(LOCAL_PATH)/device-droidx.mk)
