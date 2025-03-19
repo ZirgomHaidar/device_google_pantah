@@ -6,20 +6,20 @@
 
 # Inherit some common stuff
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aospb/config/common_full_phone.mk)
 
 # Inherit device configuration
 DEVICE_CODENAME := panther
 DEVICE_PATH := device/google/pantah
 VENDOR_PATH := vendor/google/panther
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
-$(call inherit-product, device/google/gs201/lineage_common.mk)
-$(call inherit-product, $(DEVICE_PATH)/$(DEVICE_CODENAME)/device-lineage.mk)
+$(call inherit-product, device/google/gs201/aospb_common.mk)
+$(call inherit-product, $(DEVICE_PATH)/$(DEVICE_CODENAME)/device-aospb.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7
-PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
+PRODUCT_NAME := aospb_$(DEVICE_CODENAME)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
