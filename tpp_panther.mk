@@ -28,8 +28,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 CUSTOM_BUILD_TYPE := OFFICIAL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="panther-user 15 BP1A.250305.019 13003188 release-keys" \
-    BuildFingerprint=google/panther/panther:15/BP1A.250305.019/13003188:user/release-keys \
+    BuildDesc="panther-user 15 BP1A.250405.007.B1 13240308 release-keys" \
+    BuildFingerprint=google/panther/panther:15/BP1A.250405.007.B1/13240308:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
