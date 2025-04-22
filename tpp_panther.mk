@@ -12,7 +12,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 DEVICE_CODENAME := panther
 DEVICE_PATH := device/google/pantah
 VENDOR_PATH := vendor/google/panther
-$(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 $(call inherit-product, device/google/gs201/tpp_common.mk)
 $(call inherit-product, $(DEVICE_PATH)/$(DEVICE_CODENAME)/device-tpp.mk)
 

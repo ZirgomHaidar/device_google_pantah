@@ -21,6 +21,7 @@ BOARD_USES_SWIFTSHADER := true
 
 $(call inherit-product, device/google/gs201/aosp_common.mk)
 $(call inherit-product, device/google/pantah/device-panther.mk)
+$(call inherit-product, device/google/pantah/tpp_panther.mk)
 
 PRODUCT_NAME := aosp_panther
 PRODUCT_DEVICE := panther
